@@ -390,6 +390,12 @@ h6 {
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
+  max-height: 250px;
+}
+
+#hero .carousel-control-prev,
+#hero .carousel-control-next {
+  display: none;
 }
 
 #hero .carousel,
@@ -497,6 +503,7 @@ h6 {
 #hero .carousel-indicators li.active {
   opacity: 1;
   background: #5cb874;
+  display: none;
 }
 
 #hero .btn-get-started {
